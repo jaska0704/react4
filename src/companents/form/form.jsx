@@ -44,9 +44,7 @@ export const Form = ({ pushDate, defaultName,  defaultAge, changeItem}) => {
             type="text"
             placeholder="Age"
           />
-          <button className="btnSubmit" type="submit">
-            Submit
-          </button>
+          <button className="btnSubmit" type="submit">{defaultAge ? "Save" : "Submit"}</button>
         </form>
         <div className="error d-block d-nane"></div>
       </>

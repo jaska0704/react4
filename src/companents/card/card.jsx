@@ -11,7 +11,8 @@ export const Card = ({name, age, id, setToodo }) => {
     setEditShow(!editShow);
   }
   const changeItem = (data) => {
-
+    setToodo((p) => p.map((item)=> item.id ===id ? {...data, id} : item))
+    setEditShow(false);
   }
 
 
