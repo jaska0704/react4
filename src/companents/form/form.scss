@@ -1,0 +1,23 @@
+
+.form {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.input1, .input2 {
+   width: 35%;
+   height: 45px;
+   border-radius: 15px;
+   border: none;
+   padding: 8px;
+}
+
+.btnSubmit {
+   width: 100px;
+   background-color: blueviolet;
+   color: antiquewhite;
+   border: none;
+   border-radius: 10px;
+   font-weight: 600;
+}
